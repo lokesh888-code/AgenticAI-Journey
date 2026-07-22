@@ -1,0 +1,13 @@
+def show_basics(text):
+    print("Original Text:", text)
+    print("Uppercase:", text.upper())
+    print("Lowercase:", text.lower())
+    print("Title Case:", text.title())
+    print("Length of Text:", len(text))
+    print("Is Alphanumeric:", text.isalnum())
+    print("Is Alphabetic:", text.isalpha())
+    print("Is Digit:", text.isdigit())
+    print("Is Lowercase:", text.islower())
+    print("Is Uppercase:", text.isupper())
+    print("First character:", text[0] if text else "Text is empty")
+    print("Last character:", text[-1] if text else "Text is empty")
